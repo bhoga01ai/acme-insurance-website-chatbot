@@ -1,0 +1,93 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f0f9ff"/>
+  
+  <!-- Father -->
+  <!-- Head -->
+  <circle cx="200" cy="120" r="40" fill="#f8d5c2"/>
+  <!-- Hair -->
+  <path d="M170 100 Q 200 80 230 100 L 230 120 L 170 120 Z" fill="#4a5568"/>
+  <!-- Body -->
+  <path d="M180 160 L 220 160 L 230 300 L 170 300 Z" fill="#3182ce"/>
+  <!-- Arms -->
+  <rect x="150" y="160" width="30" height="100" rx="10" fill="#3182ce"/>
+  <rect x="220" y="160" width="30" height="100" rx="10" fill="#3182ce"/>
+  <!-- Legs -->
+  <rect x="180" y="300" width="20" height="80" fill="#2d3748"/>
+  <rect x="210" y="300" width="20" height="80" fill="#2d3748"/>
+  <!-- Face -->
+  <circle cx="185" cy="110" r="5" fill="#2d3748"/>
+  <circle cx="215" cy="110" r="5" fill="#2d3748"/>
+  <path d="M190 130 Q 200 140 210 130" fill="none" stroke="#2d3748" stroke-width="2"/>
+  
+  <!-- Mother -->
+  <!-- Head -->
+  <circle cx="300" cy="130" r="35" fill="#f8d5c2"/>
+  <!-- Hair -->
+  <path d="M275 110 Q 300 80 325 110 L 325 140 Q 300 150 275 140 Z" fill="#6b4f4f"/>
+  <!-- Body -->
+  <path d="M280 165 L 320 165 L 330 300 L 270 300 Z" fill="#805ad5"/>
+  <!-- Arms -->
+  <rect x="250" y="165" width="30" height="90" rx="10" fill="#805ad5"/>
+  <rect x="320" y="165" width="30" height="90" rx="10" fill="#805ad5"/>
+  <!-- Legs -->
+  <rect x="280" y="300" width="20" height="80" fill="#4a5568"/>
+  <rect x="310" y="300" width="20" height="80" fill="#4a5568"/>
+  <!-- Face -->
+  <circle cx="285" cy="120" r="5" fill="#2d3748"/>
+  <circle cx="315" cy="120" r="5" fill="#2d3748"/>
+  <path d="M290 140 Q 300 150 310 140" fill="none" stroke="#d35f5f" stroke-width="2"/>
+  
+  <!-- Child 1 (boy) -->
+  <!-- Head -->
+  <circle cx="400" cy="150" r="30" fill="#f8d5c2"/>
+  <!-- Hair -->
+  <path d="M380 135 Q 400 120 420 135 L 420 150 L 380 150 Z" fill="#4a5568"/>
+  <!-- Body -->
+  <path d="M385 180 L 415 180 L 420 280 L 380 280 Z" fill="#38a169"/>
+  <!-- Arms -->
+  <rect x="365" y="180" width="20" height="70" rx="8" fill="#38a169"/>
+  <rect x="415" y="180" width="20" height="70" rx="8" fill="#38a169"/>
+  <!-- Legs -->
+  <rect x="385" y="280" width="15" height="60" fill="#2d3748"/>
+  <rect x="405" y="280" width="15" height="60" fill="#2d3748"/>
+  <!-- Face -->
+  <circle cx="390" cy="145" r="4" fill="#2d3748"/>
+  <circle cx="410" cy="145" r="4" fill="#2d3748"/>
+  <path d="M395 160 Q 400 165 405 160" fill="none" stroke="#2d3748" stroke-width="1.5"/>
+  
+  <!-- Child 2 (girl) -->
+  <!-- Head -->
+  <circle cx="480" cy="160" r="25" fill="#f8d5c2"/>
+  <!-- Hair -->
+  <path d="M460 145 Q 480 120 500 145 Q 505 170 500 180 Q 480 190 460 180 Q 455 170 460 145" fill="#6b4f4f"/>
+  <!-- Body -->
+  <path d="M465 185 L 495 185 L 500 270 L 460 270 Z" fill="#ed64a6"/>
+  <!-- Arms -->
+  <rect x="445" y="185" width="20" height="60" rx="7" fill="#ed64a6"/>
+  <rect x="495" y="185" width="20" height="60" rx="7" fill="#ed64a6"/>
+  <!-- Legs -->
+  <rect x="465" y="270" width="15" height="50" fill="#4a5568"/>
+  <rect x="485" y="270" width="15" height="50" fill="#4a5568"/>
+  <!-- Face -->
+  <circle cx="470" cy="155" r="3" fill="#2d3748"/>
+  <circle cx="490" cy="155" r="3" fill="#2d3748"/>
+  <path d="M475 165 Q 480 170 485 165" fill="none" stroke="#d35f5f" stroke-width="1.5"/>
+  
+  <!-- House outline in background -->
+  <path d="M50 150 L 150 80 L 250 150 L 250 300 L 50 300 Z" fill="none" stroke="#a0aec0" stroke-width="3"/>
+  <rect x="130" y="220" width="40" height="80" fill="none" stroke="#a0aec0" stroke-width="3"/>
+  <rect x="80" y="180" width="30" height="30" fill="none" stroke="#a0aec0" stroke-width="2"/>
+  <rect x="190" y="180" width="30" height="30" fill="none" stroke="#a0aec0" stroke-width="2"/>
+  
+  <!-- Sun -->
+  <circle cx="550" cy="50" r="30" fill="#fbd38d"/>
+  <line x1="550" y1="10" x2="550" y2="0" stroke="#fbd38d" stroke-width="4"/>
+  <line x1="550" y1="90" x2="550" y2="100" stroke="#fbd38d" stroke-width="4"/>
+  <line x1="510" y1="50" x2="500" y2="50" stroke="#fbd38d" stroke-width="4"/>
+  <line x1="590" y1="50" x2="600" y2="50" stroke="#fbd38d" stroke-width="4"/>
+  <line x1="520" y1="20" x2="510" y2="10" stroke="#fbd38d" stroke-width="4"/>
+  <line x1="580" y1="80" x2="590" y2="90" stroke="#fbd38d" stroke-width="4"/>
+  <line x1="520" y1="80" x2="510" y2="90" stroke="#fbd38d" stroke-width="4"/>
+  <line x1="580" y1="20" x2="590" y2="10" stroke="#fbd38d" stroke-width="4"/>
+</svg>

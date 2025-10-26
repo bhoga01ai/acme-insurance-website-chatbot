@@ -1,0 +1,29 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <circle cx="100" cy="100" r="100" fill="#EBF8FF"/>
+  
+  <!-- House -->
+  <path d="M50 100 L 100 60 L 150 100 L 150 160 L 50 160 Z" fill="#FFFFFF" stroke="#3182CE" stroke-width="3"/>
+  
+  <!-- Roof -->
+  <path d="M50 100 L 100 60 L 150 100" fill="none" stroke="#2C5282" stroke-width="4"/>
+  
+  <!-- Door -->
+  <rect x="90" y="120" width="20" height="40" fill="#4A5568" stroke="#2D3748" stroke-width="1"/>
+  <circle cx="105" cy="140" r="2" fill="#FFFFFF"/>
+  
+  <!-- Windows -->
+  <rect x="65" y="110" width="15" height="15" fill="#BEE3F8" stroke="#3182CE" stroke-width="2"/>
+  <rect x="120" y="110" width="15" height="15" fill="#BEE3F8" stroke="#3182CE" stroke-width="2"/>
+  
+  <!-- Shield/Protection Symbol -->
+  <path d="M100 170 L 80 180 L 80 190 L 100 200 L 120 190 L 120 180 Z" fill="#3182CE" opacity="0.8"/>
+  <path d="M100 170 L 100 200" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <path d="M80 185 L 120 185" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Chimney -->
+  <rect x="120" y="70" width="10" height="20" fill="#4A5568" stroke="#2D3748" stroke-width="1"/>
+  
+  <!-- Smoke -->
+  <path d="M125 65 Q 130 60 125 55 Q 120 50 125 45" fill="none" stroke="#A0AEC0" stroke-width="2" stroke-linecap="round"/>
+</svg>

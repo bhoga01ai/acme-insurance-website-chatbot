@@ -1,0 +1,98 @@
+=== SECTION: HOME ===
+
+# Protect What Matters Most
+# Get Your Quick Quote
+Comprehensive insurance coverage tailored to your needs. Get peace of mind knowing your family is protected.
+Fill out this form and get an instant quote
+
+=== SECTION: SERVICES ===
+
+# Our Insurance Services
+ACME Insurance offers a wide range of insurance products to meet your needs. Our experienced agents will help you find the right coverage at the right price.
+
+## Auto Insurance
+- Liability Coverage
+- Collision Coverage
+- Comprehensive Coverage
+- Uninsured/Underinsured Motorist Coverage
+- Personal Injury Protection
+
+## Home Insurance
+- Dwelling Coverage
+- Personal Property Coverage
+- Liability Protection
+- Additional Living Expenses
+- Flood Insurance
+
+## Life Insurance
+- Term Life Insurance
+- Whole Life Insurance
+- Universal Life Insurance
+- Variable Life Insurance
+- Final Expense Insurance
+
+## Health Insurance
+- Individual Health Plans
+- Family Health Plans
+- Medicare Supplements
+- Dental and Vision Coverage
+- Prescription Drug Coverage
+
+=== SECTION: ABOUT ===
+
+# About ACME Insurance
+With over 50 years of experience in the insurance industry, ACME Insurance has been providing quality coverage and exceptional service to our clients. We are committed to helping you protect what matters most.
+
+## Our Mission
+To provide peace of mind through reliable insurance solutions and personalized service that exceeds expectations.
+
+## Our Values
+- Integrity in all we do
+- Customer-focused approach
+- Community involvement
+- Continuous improvement
+- Teamwork and collaboration
+
+=== SECTION: AGENT ===
+
+# Meet Our Agents
+Our team of experienced agents is ready to help you find the right insurance coverage for your needs.
+
+## John Smith
+Senior Insurance Agent with 15 years of experience specializing in auto and home insurance.
+
+## Sarah Johnson
+Life Insurance Specialist with a passion for helping families secure their financial future.
+
+## Michael Brown
+Health Insurance Expert who stays up-to-date with the latest healthcare regulations and options.
+
+=== SECTION: TESTIMONIALS ===
+
+# What Our Clients Say
+
+"ACME Insurance provided excellent service when I needed to file a claim after a car accident. The process was smooth and hassle-free." - James Wilson
+
+"I've been with ACME Insurance for over 10 years and have always received personalized attention and competitive rates." - Emily Rodriguez
+
+"The team at ACME helped me find the perfect life insurance policy for my family's needs. I highly recommend their services." - Robert Thompson
+
+=== SECTION: CONTACT ===
+
+# Contact Us
+We're here to answer your questions and provide the assistance you need.
+
+## Office Hours
+Monday-Friday: 9:00 AM - 5:00 PM
+Saturday: 10:00 AM - 2:00 PM
+Sunday: Closed
+
+## Contact Information
+Phone: (555) 123-4567
+Email: info@acmeinsurance.com
+Address: 123 Main Street, Anytown, USA 12345
+
+=== FOOTER ===
+
+© 2023 ACME Insurance. All rights reserved.
+Privacy Policy | Terms of Service | Sitemap

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Acme Insurance provides comprehensive coverage options for auto, home, life, and business insurance. Get a free quote today.">
+    <meta name="keywords" content="insurance, auto insurance, home insurance, life insurance, business insurance, insurance quote">
+    <meta name="theme-color" content="#3182CE">
+    <title>Acme Insurance - Protecting What Matters Most</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Preload critical assets -->
+    <link rel="preload" href="img/logo.svg" as="image">
+    <link rel="preload" href="img/family-photo.svg" as="image">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#home">
+                    <img src="img/logo.svg" alt="Acme Insurance Logo">
+                    <span>Acme Insurance</span>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="#login" class="login-link">Login</a>
+                <a href="#contact" class="btn-primary">Get Started</a>
+            </div>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Protect What Matters Most</h2>
+                    <p>Comprehensive insurance coverage tailored to your needs. Get peace of mind knowing your family is protected.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn-primary">Get Free Quote</a>
+                        <a href="#services" class="btn-secondary">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="img/family-photo.svg" alt="Family protected by insurance">
+                </div>
+            </div>
+            
+            <!-- Quick Quote Form -->
+            <div class="quick-quote-container">
+                <h3>Get Your Quick Quote</h3>
+                <p>Fill out this form and get an instant quote</p>
+                <form id="quick-quote-form" class="quick-quote-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="quick-first-name" name="firstName" placeholder="First Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="quick-last-name" name="lastName" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="email" id="quick-email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="quick-phone" name="phone" placeholder="Phone" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <select id="quick-insurance-type" name="insuranceType" required>
+                                <option value="" disabled selected>Select Insurance Type</option>
+                                <option value="auto">Auto Insurance</option>
+                                <option value="home">Home Insurance</option>
+                                <option value="life">Life Insurance</option>
+                                <option value="business">Business Insurance</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select id="quick-coverage-amount" name="coverageAmount" required>
+                                <option value="" disabled selected>Coverage Amount</option>
+                                <option value="basic">Basic Coverage</option>
+                                <option value="standard">Standard Coverage</option>
+                                <option value="premium">Premium Coverage</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-primary btn-block">Get My Quote Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Insurance Services</h2>
+                <p>We offer a wide range of insurance products to meet your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="img/health-insurance.svg" alt="Health Insurance Icon">
+                    </div>
+                    <h3>Health Insurance</h3>
+                    <p>Comprehensive health coverage for individuals and families</p>
+                    <a href="#" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="img/auto-insurance.svg" alt="Auto Insurance Icon">
+                    </div>
+                    <h3>Auto Insurance</h3>
+                    <p>Protection for your vehicle against accidents and damages</p>
+                    <a href="#" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="img/home-insurance.svg" alt="Home Insurance Icon">
+                    </div>
+                    <h3>Home Insurance</h3>
+                    <p>Safeguard your home and belongings from unexpected events</p>
+                    <a href="#" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="img/life-insurance.svg" alt="Life Insurance Icon">
+                    </div>
+                    <h3>Life Insurance</h3>
+                    <p>Financial security for your loved ones in your absence</p>
+                    <a href="#" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About ACME Insurance</h2>
+                <p>Your trusted partner in protection for over 20 years</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="img/about-office.svg" alt="ACME Insurance Office">
+                </div>
+                <div class="about-text">
+                    <p>At ACME Insurance, we believe in providing reliable, affordable, and comprehensive insurance solutions. Our team of experienced professionals is dedicated to helping you find the right coverage for your specific needs.</p>
+                    <p>We pride ourselves on our customer-first approach, ensuring that you receive personalized service and support throughout your insurance journey.</p>
+                    <ul class="about-features">
+                        <li><i class="fas fa-check"></i> 24/7 Customer Support</li>
+                        <li><i class="fas fa-check"></i> Fast Claims Processing</li>
+                        <li><i class="fas fa-check"></i> Customized Insurance Plans</li>
+                        <li><i class="fas fa-check"></i> Competitive Rates</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Agent Profile Section -->
+    <section id="agent" class="agent-profile">
+        <div class="container">
+            <div class="agent-content">
+                <div class="agent-image">
+                    <img src="img/agent-photo.svg" alt="Insurance Agent Profile">
+                </div>
+                <div class="agent-info">
+                    <h2>Meet Your Agent</h2>
+                    <h3>Sarah Johnson</h3>
+                    <p class="agent-title">Senior Insurance Advisor</p>
+                    <p class="agent-description">With over 15 years of experience in the insurance industry, Sarah is dedicated to helping families and businesses find the perfect coverage for their needs.</p>
+                    <div class="agent-credentials">
+                        <div class="credential">
+                            <i class="fas fa-certificate"></i>
+                            <span>Certified Insurance Counselor</span>
+                        </div>
+                        <div class="credential">
+                            <i class="fas fa-award"></i>
+                            <span>Top Agent Award 2023</span>
+                        </div>
+                        <div class="credential">
+                            <i class="fas fa-user-graduate"></i>
+                            <span>BA in Finance, State University</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Schedule a Consultation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <p>Hear from our satisfied customers about their experience with ACME Insurance</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-image">
+                        <img src="img/testimonial-user1.svg" alt="Client Testimonial">
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"ACME Insurance provided exceptional service when I needed it most. After a car accident, they processed my claim quickly and efficiently. I couldn't be happier with their support!"</p>
+                        <p class="testimonial-author">- Michael Thompson, Auto Insurance Customer</p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-image">
+                        <img src="img/testimonial-user2.svg" alt="Client Testimonial">
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"I've been with ACME Insurance for over 10 years for my home and life insurance needs. Their personalized approach and competitive rates keep me coming back. Highly recommended!"</p>
+                        <p class="testimonial-author">- Jennifer Davis, Home & Life Insurance Customer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in Touch</h2>
+                <p>Request a quote or more information about our services</p>
+            </div>
+            <div class="contact-form-container">
+                <form id="inquiry-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="insurance-type">Insurance Type</label>
+                        <select id="insurance-type" name="insuranceType" required>
+                            <option value="" disabled selected>Select Insurance Type</option>
+                            <option value="health">Health Insurance</option>
+                            <option value="auto">Auto Insurance</option>
+                            <option value="home">Home Insurance</option>
+                            <option value="life">Life Insurance</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="opt-in" name="optIn">
+                        <label for="opt-in">I agree to receive communications from ACME Insurance</label>
+                    </div>
+                    <div class="g-recaptcha" data-sitekey="your-recaptcha-site-key"></div>
+                    <button type="submit" class="btn-primary">Submit Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>ACME Insurance</h3>
+                    <p>Your Trusted Insurance Partner</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Insurance St, City, State 12345</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@acmeinsurance.com</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 ACME Insurance. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/chatbot.js" defer></script>
+    <script src="js/scraper.js" defer></script>
+</body>
+</html>

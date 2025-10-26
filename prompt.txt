@@ -1,0 +1,17 @@
+1. Develop a comprehensive insurance website based on the product requirements document  Carefully incorporate all specified requirements when designing and building the website, including implementing the sample design provided in the document. Ensure the website meets all functional and design specifications outlined in the requirements.
+
+2. Review the website design from attached file and then redesign and optimize the website?
+
+3. Update the top navigation bar styling to use a gray background color (#808080 or similar) with white text color (#4B5563) for all elements, including links, buttons, and dropdown menus. Maintain consistent styling across all navigation components.
+
+4. can you add a good  quality of stock images that are releveant my website whereever required?
+
+5. when user submits the details on forms from attached screen shots, save those details in csv format into folder: data
+
+
+chatbot: 
+1. Now I would like to scrape the text from website:http://localhost:8080/  and implement a simple chatbot with widget placed at the bottom on the right side.  You can use in mememory vector store for searching information semantically.
+2.can you scrape the website and then store the inromation in text file in this project
+3.can you make chatbot answer user questions based on content from file
+4. read contents from file: website_content.txt , use google gemini-textembedding-005 model to embedd contents and then store it using FAISS vector store  and  retrive the contents from vector store when ask questions and then send to gemini-2.5-flash-lite mode to generate final answers
+5. can you deploy to vercel prod and follow the tray instructions.

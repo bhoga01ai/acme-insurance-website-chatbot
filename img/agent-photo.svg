@@ -1,0 +1,63 @@
+<svg width="500" height="600" viewBox="0 0 500 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="600" fill="#f5f7fa"/>
+  
+  <!-- Professional woman in business attire -->
+  <!-- Head and face -->
+  <circle cx="250" cy="150" r="100" fill="#f8d5c2"/>
+  <path d="M180 120 Q 250 180 320 120" fill="none" stroke="#6b4f4f" stroke-width="2"/>
+  
+  <!-- Hair -->
+  <path d="M250 50 Q 150 80 170 200 Q 200 220 250 220 Q 300 220 330 200 Q 350 80 250 50" fill="#6b4f4f"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="210" cy="130" rx="15" ry="8" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <ellipse cx="290" cy="130" rx="15" ry="8" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <circle cx="210" cy="130" r="5" fill="#3182ce"/>
+  <circle cx="290" cy="130" r="5" fill="#3182ce"/>
+  
+  <!-- Eyebrows -->
+  <path d="M195 115 Q 210 105 225 115" fill="none" stroke="#6b4f4f" stroke-width="2"/>
+  <path d="M275 115 Q 290 105 305 115" fill="none" stroke="#6b4f4f" stroke-width="2"/>
+  
+  <!-- Nose -->
+  <path d="M250 140 Q 245 160 250 170 Q 255 160 250 140" fill="#f0c0a8"/>
+  
+  <!-- Mouth -->
+  <path d="M230 180 Q 250 195 270 180" fill="none" stroke="#d35f5f" stroke-width="2"/>
+  
+  <!-- Neck -->
+  <rect x="230" y="220" width="40" height="30" fill="#f8d5c2"/>
+  
+  <!-- Suit jacket -->
+  <path d="M150 250 L 230 250 L 230 500 L 150 450 Z" fill="#2d3748"/>
+  <path d="M350 250 L 270 250 L 270 500 L 350 450 Z" fill="#2d3748"/>
+  
+  <!-- Shirt/blouse -->
+  <path d="M230 250 L 270 250 L 270 450 L 230 450 Z" fill="#ffffff"/>
+  
+  <!-- Collar -->
+  <path d="M230 250 L 210 280 L 250 300 L 290 280 L 270 250 Z" fill="#ffffff" stroke="#2d3748" stroke-width="1"/>
+  
+  <!-- Arms crossed -->
+  <path d="M150 300 Q 200 320 230 310 L 230 350 Q 180 340 150 320 Z" fill="#2d3748"/>
+  <path d="M350 300 Q 300 320 270 310 L 270 350 Q 320 340 350 320 Z" fill="#2d3748"/>
+  
+  <!-- Hands -->
+  <path d="M230 310 Q 240 315 250 310 Q 260 315 270 310" fill="#f8d5c2"/>
+  
+  <!-- Skirt/pants -->
+  <path d="M150 450 L 230 500 L 270 500 L 350 450 L 350 550 L 270 600 L 230 600 L 150 550 Z" fill="#2d3748"/>
+  
+  <!-- Accessories -->
+  <!-- Earrings -->
+  <circle cx="170" cy="150" r="5" fill="#fbd38d"/>
+  <circle cx="330" cy="150" r="5" fill="#fbd38d"/>
+  
+  <!-- Necklace -->
+  <path d="M240 240 Q 250 250 260 240" fill="none" stroke="#fbd38d" stroke-width="2"/>
+  <circle cx="250" cy="245" r="3" fill="#fbd38d"/>
+  
+  <!-- Professional smile -->
+  <path d="M230 180 Q 250 190 270 180" fill="none" stroke="#d35f5f" stroke-width="2"/>
+</svg>

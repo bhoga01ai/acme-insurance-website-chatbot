@@ -1,0 +1,16 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background shape -->
+  <rect width="400" height="400" rx="8" fill="#EBF8FF" />
+  
+  <!-- Silhouette of a professional woman -->
+  <path d="M200 320C244.183 320 280 284.183 280 240C280 195.817 244.183 160 200 160C155.817 160 120 195.817 120 240C120 284.183 155.817 320 200 320Z" fill="#3182CE" />
+  <path d="M200 150C222.091 150 240 132.091 240 110C240 87.9086 222.091 70 200 70C177.909 70 160 87.9086 160 110C160 132.091 177.909 150 200 150Z" fill="#3182CE" />
+  
+  <!-- Suit details -->
+  <path d="M180 240V320H220V240H250L200 180L150 240H180Z" fill="#2C5282" />
+  
+  <!-- Decorative elements -->
+  <circle cx="190" cy="100" r="5" fill="white" />
+  <circle cx="210" cy="100" r="5" fill="white" />
+  <path d="M190 120C190 120 195 125 200 125C205 125 210 120 210 120" stroke="white" stroke-width="2" stroke-linecap="round" />
+</svg>
