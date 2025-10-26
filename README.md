@@ -1,6 +1,6 @@
 # ACME Insurance Website
 
-![ACME Insurance Website Screenshot](/public/Screenshot%202025-10-26%20at%2012.57.59%20PM.png)
+![ACME Insurance Website Screenshot](public/Screenshot%202025-10-26%20at%2012.57.59%20PM.png)
 
 A single-page insurance website built according to the product requirements document. This website allows users to learn about insurance services, submit inquiries, and enables the client to receive leads via email.
 
