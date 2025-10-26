@@ -15,3 +15,4 @@ chatbot:
 3.can you make chatbot answer user questions based on content from file
 4. read contents from file: website_content.txt , use google gemini-textembedding-005 model to embedd contents and then store it using FAISS vector store  and  retrive the contents from vector store when ask questions and then send to gemini-2.5-flash-lite mode to generate final answers
 5. can you deploy to vercel prod and follow the tray instructions.
+6 .can you push this project to git remote add origin https://github.com/bhoga01ai/acme-insurance-website-chatbot.git
